@@ -2,7 +2,7 @@ export default {
     MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
         REGION: "eu-west-1",
-        BUCKET: "notes-app-api-prod-serverlessdeploymentbucket-3npsgk7u2d5l"
+        BUCKET: "notes-toot-pictures"
     },
     apiGateway: {
         REGION: "eu-west-1",
@@ -12,6 +12,6 @@ export default {
         REGION: "eu-west-1",
         USER_POOL_ID: "eu-west-1_FpyKLR9rC",
         APP_CLIENT_ID: "7untnlnvcelbuplgh1lcmubh5u",
-        IDENTITY_POOL_ID: "eu-west-1:1370cca4-7f06-4b12-9878-f5e669302cac"
+        IDENTITY_POOL_ID: "eu-west-1:6536626c-d58c-41ce-b83a-ee145b0c6807"
     }
 };
